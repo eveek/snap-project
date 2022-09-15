@@ -1,0 +1,469 @@
+body{
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0;
+    background-color: rgb(255, 252, 252);
+
+}
+
+
+header .h-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+    width: 100%;
+    max-width: 1550px;
+    height: 100px;
+    box-sizing: border-box;
+    padding: 0 30px;
+}
+
+header .h-wrap .navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1300px;
+
+}
+
+header .h-wrap .navigation .nav ul{
+    list-style: none;
+    display: flex;
+    font-size: 18px;
+    width: 450px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+
+}
+
+
+header .h-wrap .nav2{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    justify-content: space-between;
+    font-size: 18px;
+    /* border: 1px solid red; */
+    margin-left: 35px;
+}
+
+header .h-wrap .nav2 .login{
+    height: 54px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .h-wrap .nav2 .login a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .h-wrap .logo{
+    margin-right: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(99, 97, 97);
+    cursor: pointer;
+}
+
+a:hover{
+    color: black;
+}
+
+header .h-wrap .nav2 div a input:hover{
+    color: black;
+    border: 1.5px solid black;
+}
+
+header .h-wrap .navigation .logo{
+    align-items: center;
+}
+
+header .h-wrap .navigation .logo img{
+    margin-right: 10px;
+    margin-top: 15px;
+    height: 35px;
+    
+}
+
+header .h-wrap .nav2 div a input {
+    padding: 15px 25px;
+    border-radius: 15px;
+    border: 1.5px solid rgb(99, 97, 97);
+    background-color: transparent;
+    color: rgb(99, 97, 97);
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+header .h-wrap .navigation .nav ul li .sub1 ul, 
+header .h-wrap .navigation .nav ul li .sub2 ul{
+    display:list-item;
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 0px;
+    box-shadow: 0px 5px 20px rgb(187, 182, 182);
+    border-radius: 15px;
+    position: absolute;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+header .h-wrap .navigation .nav ul li a {
+    display: block;
+    text-align: center;
+    padding: 15px;
+    margin: 0;
+}
+
+header .h-wrap .navigation .nav ul li .sub1 ul li a,
+header .h-wrap .navigation .nav ul li .sub2 ul li a{
+    text-align: left;
+    padding: 15px 40px;
+}
+
+header .h-wrap .navigation .nav ul li .sub1 ul li span{
+    margin-right: 10px;
+}
+
+.sub1, .sub2{
+    display: none;
+}
+
+.sub1{
+    margin-left: -80px;
+}
+
+.sub2{
+    margin-left: 10px;
+}
+
+#f-drop, #c-drop{
+    display: none;
+}
+
+
+.open, .close{
+    display: none;
+}
+
+.open label, .close label{
+    cursor: pointer;
+
+}
+
+#reveal{
+    display: none;
+}
+
+.features_arrow_up, .company_arrow_up{
+    display: none;
+}
+
+
+
+
+/* MAIN CONTENT */
+
+main .content{
+    width: 100%;
+    max-width: 85vw;
+    margin: 50px auto;
+}
+
+main .content .c1{
+    float: right;
+}
+
+main .content .c2{
+    padding-top: 7vw;
+    box-sizing: border-box;
+    height: 46.7vw;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+main .content .c1 img{
+    width: 35vw;
+    height: auto;
+}
+
+main .content .c1 img:first-child {
+    display: block;
+}
+
+main .content .c1 img:last-child {
+    display: none;
+}
+
+main .content .c2 h1{
+    margin: 0;
+}
+
+main .content .c2 h1 span:first-child{
+    font-size: 6vw;
+    margin: 0;
+}
+
+main .content .c2 h1 span:last-child{
+    display: none;
+}
+
+main .content .c2 p{
+    font-size: 1.5vw;
+    color: rgb(99, 97, 97);
+}
+
+main .content .c2 button{
+    padding: 2ch 4ch;
+    font-size: 1.2vw;
+    color: white;
+    background-color: black;
+    border-radius: 1.5ch;
+    font-weight: bold;
+}
+
+main .content .c2 .last{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+}
+
+main .content .c2 .last img:first-child,
+main .content .c2 .last img:last-child{
+    height: 1.38vw;
+}
+
+main .content .c2 .last img:nth-child(2){
+    height: 2.5vw;
+}
+
+main .content .c2 .last img:nth-child(3){
+    height: 1.7vw;
+}
+
+main .content .c2 button:hover{
+    color: black;
+    background-color: transparent;
+    border: 1.5px solid black;
+}
+
+
+button{
+    cursor: pointer;
+}
+
+input{
+    cursor: pointer;
+}
+
+#cover{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.451);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1000px){
+    header .h-wrap .navigation{
+        position: fixed;
+        flex-direction: column;
+        left: 110%;
+        bottom: 0;
+        right: 0;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        width: 70vw;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: space-between;
+        padding: 100px 0 30px 0;
+        transition: left .5s;
+        overflow-y: scroll;
+        z-index: 100;
+    }
+
+    .sub1, .sub2{
+        margin: inherit;
+    }
+
+    header .h-wrap .navigation .nav{
+        width: 100%;
+        justify-content: left;
+    }
+
+    header .h-wrap .navigation .nav ul{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    header .h-wrap .navigation .nav ul li a{
+        padding: 20px 30px;
+        text-align: left;
+    }
+
+    header .h-wrap .nav2{
+        flex-direction: column;
+        justify-content: left;
+        }
+
+    header .h-wrap .nav2{
+        width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+
+    }
+
+    header .h-wrap .nav2 div{
+        text-align: center;
+        width: 100%;
+    }
+
+    header .h-wrap .nav2 div:last-child input{
+        width: 100%;
+        margin: 0;
+    }
+
+    header .h-wrap .nav2 div:last-child {
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+
+    header .h-wrap .nav2 div:first-child{
+        box-sizing: border-box;
+    }
+
+    header .h-wrap .navigation .nav ul li .sub1 ul,
+    header .h-wrap .navigation .nav ul li .sub2 ul{
+        position: inherit;
+        box-shadow: none;
+        padding-left: 30px;
+    }
+
+
+    .open,
+    .close {
+        display: block;
+    }
+
+    .close{
+        position: absolute;
+        top: 30px;
+        right: 30px;
+    }
+
+    #reveal:checked ~ .navigation{
+        left: 30%;
+        transition: left .5s;
+    }
+
+
+/* MAIN */
+
+
+        main .content {
+            display: block;
+            padding: 0;
+            margin: 0;
+        }
+    
+        main .content .c1 img:first-child {
+            display: none;
+        }
+    
+        main .content .c1 img:last-child {
+            display: block;
+            width: 100%;
+            height: 60%;
+        }
+    
+        main .content .c1 {
+            float: none;
+            display: flex;
+            justify-content: center;
+            width: 100vw;
+            margin-bottom: 0;
+        }
+    
+        main .content .c2 {
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0;
+            margin-top: 20vw;
+            margin-bottom: 100px;
+            width: 100vw;
+            height: 55vw;
+        }
+
+        main .content .c2 h1 span:first-child{
+            display: none;
+        }
+    
+    
+        main .content .c2 h1 span:last-child {
+            margin: 0;
+            padding: 0;
+            line-height: 1ch;
+            display: block;
+            font-size: 8vw;
+        }
+
+        main .content .c2 p{
+            font-size: 2.5vw;
+            margin: 0;
+        }
+
+        main .content .c2 button{
+            font-size: 2vw;
+        }
+    
+        main .content .c2 .last {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            width: 60%;
+            margin: 0;
+        }
+
+        main .content .c2 .last img:first-child,
+        main .content .c2 .last img:last-child {
+            height: 2.555vw;
+        }
+
+        main .content .c2 .last img:nth-child(2) {
+            height: 4.7vw;
+        }
+
+        main .content .c2 .last img:nth-child(3) {
+            height: 3.05vw;
+        }
+}

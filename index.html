@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Snap | Home page</title>
+    <link rel="icon" type="imge/x-icon" href="./images/favicon-32x32.png">
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <header>
+       <div class="h-wrap">
+        <div class="logo">
+            <img src="./images/logo.svg">
+        </div>
+        <input type="checkbox" id="reveal">
+       <div class="navigation">
+        <div class="nav">
+            <ul>
+                <li class="features">
+                    <label for="f-drop">
+                        <a class="f1">Features <span class="features_arrow_down"><img src="./images/icon-arrow-down.svg"></span><span
+                                class="features_arrow_up"><img src="./images/icon-arrow-up.svg"></span></a>
+                        </label>
+                        <input type="checkbox" id="f-drop"> 
+                        <div class="sub1">
+                        <ul>
+                            <li><a href="#"><span><img src="./images/icon-todo.svg"></span> Todo List</a></li>
+                            <li><a href="#"><span><img src="./images/icon-calendar.svg"></span> Calendar</a></li>
+                            <li><a href="#"><span><img src="./images/icon-reminders.svg"></span> Reminder</a></li>
+                            <li><a href="#"><span><img src="./images/icon-planning.svg"></span> Planning</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="company">
+                    <label for="c-drop">
+                        <a class="f2">Company <span class="company_arrow_down"><img src="./images/icon-arrow-down.svg"></span><span class="company_arrow_up"><img src="./images/icon-arrow-up.svg"></span></a>
+                    </label>
+                    <input type="checkbox" id="c-drop">
+                    <div  class="sub2">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Our Team</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+        <div class="nav2">
+            <div class="login">
+                <a href="#">Login</a>
+            </div>
+            <div><a><input type="button" value="Register"></a></div>
+        </div>
+        <div class="close"><label for="reveal"><img src="./images/icon-close-menu.svg" alt=""></label></div>
+       </div>
+       <div class="open"><label for="reveal"><img src="./images/icon-menu.svg" alt=""></label></div>
+       </div>
+    </header>
+
+<!--MAIN-->
+    <main >
+        <div class="content">
+            <div class="c1">
+                <img src="./images/image-hero-desktop.png">
+                <img src="./images/image-hero-mobile.png">
+            </div>
+            <div class="c2">
+                <h1><span>Make<br>remote work</span> <span>Make remote work</span></h1>
+                <p>Get your team in sync, no matter your location.<br>
+                    Streaming processes, create team rituals,
+                    and<br> watch productivity soar.</p>
+                <button>Learn more</button>
+                <div class="last">
+                    <img src="./images/client-databiz.svg" alt="">
+                    <img src="./images/client-audiophile.svg" alt="">
+                    <img src="./images/client-maker.svg" alt="">
+                    <img src="./images/client-meet.svg" alt="">
+                </div>
+            </div>
+            
+        </div>
+    </main>
+    <div id="cover"></div>
+    
+</body>
+</html>
