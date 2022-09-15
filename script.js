@@ -10,7 +10,9 @@ const featuresDrop = document.querySelector(".sub1")
 const companyDrop = document.querySelector(".sub2")
 
 const sideBar = document.getElementById("reveal")
-const cover = document.getElementById("cover")
+const cover = document.querySelector(".cover")
+
+const nav = document.querySelector(".navigation")
 
 
 features.addEventListener('change', () => {
@@ -41,7 +43,7 @@ company.addEventListener('change', () => {
 sideBar.addEventListener('change', () => {
     if (sideBar.checked){
         cover.style.display = "block"
-    }else {
+    }else{
         cover.style.display = "none"
     }
 })

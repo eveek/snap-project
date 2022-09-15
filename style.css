@@ -272,7 +272,7 @@ input{
     cursor: pointer;
 }
 
-#cover{
+.cover{
     position: fixed;
     background-color: rgba(0, 0, 0, 0.451);
     top: 0;
@@ -280,8 +280,9 @@ input{
     left: 0;
     right: 0;
     display: none;
-
 }
+
+
 
 
 
@@ -293,7 +294,6 @@ input{
     header .h-wrap .navigation{
         position: fixed;
         flex-direction: column;
-        left: 110%;
         bottom: 0;
         right: 0;
         height: 100vh;
@@ -308,6 +308,10 @@ input{
         transition: left .5s;
         overflow-y: scroll;
         z-index: 100;
+    }
+
+    .navigation {
+        left: 110%;
     }
 
     .sub1, .sub2{
