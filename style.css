@@ -526,4 +526,8 @@ input{
     main .content .c2 .last img:nth-child(3) {
         height: 4.05vw;
     }
+
+    header .h-wrap{
+        padding: 0 15px;
+    }
 }
