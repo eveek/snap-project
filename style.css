@@ -68,6 +68,14 @@ header .h-wrap .nav2 .login a{
 
 header .h-wrap .logo{
     margin-right: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+header .h-wrap .logo img{
+    width: 100px;
+    height: 35px;;
 }
 
 a{
@@ -178,7 +186,7 @@ header .h-wrap .navigation .nav ul li .sub1 ul li span{
 
 main .content{
     width: 100%;
-    max-width: 85vw;
+    max-width: 75vw;
     margin: 50px auto;
 }
 
@@ -187,9 +195,9 @@ main .content .c1{
 }
 
 main .content .c2{
-    padding-top: 7vw;
+    padding-top: 5vw;
     box-sizing: border-box;
-    height: 46.7vw;
+    height: 40vw;
     width: 40vw;
     display: flex;
     flex-direction: column;
@@ -198,7 +206,7 @@ main .content .c2{
 }
 
 main .content .c1 img{
-    width: 35vw;
+    width: 30vw;
     height: auto;
 }
 
@@ -216,6 +224,7 @@ main .content .c2 h1{
 
 main .content .c2 h1 span:first-child{
     font-size: 6vw;
+    line-height: 100px;
     margin: 0;
 }
 
@@ -300,11 +309,11 @@ input{
         justify-content: center;
         align-items: center;
         background-color: white;
-        width: 70vw;
+        width: 65vw;
         box-sizing: border-box;
         display: flex;
         justify-content: space-between;
-        padding: 100px 0 30px 0;
+        padding: 60px 0 30px 0;
         transition: left .5s;
         overflow-y: scroll;
         z-index: 100;
@@ -329,7 +338,7 @@ input{
     }
 
     header .h-wrap .navigation .nav ul li a{
-        padding: 20px 30px;
+        padding: 15px 30px;
         text-align: left;
     }
 
@@ -368,7 +377,18 @@ input{
     header .h-wrap .navigation .nav ul li .sub2 ul{
         position: inherit;
         box-shadow: none;
-        padding-left: 30px;
+        padding-left: 10px;
+    }
+
+    header .h-wrap .navigation .nav ul li .sub1 ul li a,
+    header .h-wrap .navigation .nav ul li .sub2 ul li a{
+        padding: 10px 60px;
+        width: 100%;
+    }
+
+    header .h-wrap .navigation .nav ul li .sub1 ul,
+    header .h-wrap .navigation .nav ul li .sub2 ul{
+        padding: 0px;
     }
 
 
@@ -384,7 +404,7 @@ input{
     }
 
     #reveal:checked ~ .navigation{
-        left: 30%;
+        left: 35%;
         transition: left .5s;
     }
 
@@ -470,4 +490,40 @@ input{
         main .content .c2 .last img:nth-child(3) {
             height: 3.05vw;
         }
+}
+
+
+@media only screen and (max-width: 700px){
+    main .content .c2 h1 span:last-child{
+        font-size: 10vw;
+    }
+
+    main .content .c2 p{
+        font-size: 4vw;
+    }
+
+    main .content .c2 button{
+        font-size: 4vw;
+    }
+
+    main .content .c2{
+        height: 60vw;
+    }
+
+    main .content .c2 .last{
+        width: 90vw;
+    }
+    
+    main .content .c2 .last img:first-child,
+    main .content .c2 .last img:last-child {
+        height: 3.555vw;
+    }
+
+    main .content .c2 .last img:nth-child(2) {
+        height: 4.7vw;
+    }
+
+    main .content .c2 .last img:nth-child(3) {
+        height: 4.05vw;
+    }
 }
