@@ -224,7 +224,7 @@ main .content .c2 h1{
 
 main .content .c2 h1 span:first-child{
     font-size: 6vw;
-    line-height: 100px;
+    line-height: 6vw;
     margin: 0;
 }
 
@@ -383,7 +383,6 @@ input{
     header .h-wrap .navigation .nav ul li .sub1 ul li a,
     header .h-wrap .navigation .nav ul li .sub2 ul li a{
         padding: 10px 60px;
-        width: 100%;
     }
 
     header .h-wrap .navigation .nav ul li .sub1 ul,
